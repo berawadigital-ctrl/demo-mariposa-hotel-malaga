@@ -1,0 +1,453 @@
+{
+ "url": "http://127.0.0.1:38589/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Cómo son las habitaciones?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Es un hotel boutique de 4 estrellas con cincuenta y dos habitaciones. Sus habitaciones y suites ofrecen un ambiente suave, acogedor, contemp"
+    },
+    {
+     "q": "¿Hay desayuno?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Sí, desayuno buffet cada mañana con opciones dulces y saladas, productos frescos y propuestas para todos los gustos."
+    },
+    {
+     "q": "¿Qué es Le Rooftop 17?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Le Rooftop 17 es la terraza azotea del hotel, en el corazón del Soho, para tomar el té o una copa de cava. Está cerrada todos los lunes y el"
+    },
+    {
+     "q": "¿Hay gimnasio?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Sí, el hotel tiene gimnasio para entrenar a tu ritmo durante la estancia."
+    },
+    {
+     "q": "¿Hacéis masajes?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Sí, el hotel ofrece servicio de masajes durante la estancia."
+    },
+    {
+     "q": "¿Alquiláis bicicletas?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Sí, tiene servicio de alquiler de bicicletas para recorrer la ciudad."
+    },
+    {
+     "q": "¿Hay sala de reuniones?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Sí, tiene una sala de reuniones privada y funcional para encuentros profesionales, presentaciones o sesiones de trabajo."
+    },
+    {
+     "q": "¿Es un hotel sostenible?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sí: el hotel tiene un compromiso con la sostenibilidad y un jardín vertical al que ha incorporado inteligencia artificial para optimizar el "
+    },
+    {
+     "q": "¿Dónde está el hotel?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Está en Calle Casas de Campo, 17, 29001 Málaga, en pleno corazón del Soho, cerca de las principales atracciones turísticas y con fácil acces"
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar en el motor de reservas de su web (botón Reservar) o contactar en contact@mariposahm.com o el 952 57 93 00. Este asistente n"
+    },
+    {
+     "q": "¿Cuál es el teléfono?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Teléfonos 952 57 93 00 y 638 480 046; correo contact@mariposahm.com."
+    },
+    {
+     "q": "¿Quién es el titular?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Su aviso legal indica como titular a Dueliria, SLU, CIF B86990082, inscrita en el Registro Mercantil de Madrid (hoja M-579515); inscripción "
+    },
+    {
+     "q": "¿Cuánto cuesta una noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 952 57 93 00 · contact@mariposahm.com."
+    },
+    {
+     "q": "Confírmame que hay una habitación libre mañana",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar en el motor de reservas de su web (botón Reservar) o contactar en contact@mariposahm.com o el 952 57 93 00. Este asistente n"
+    },
+    {
+     "q": "¿Admiten mascotas?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 952 57 93 00 · contact@mariposahm.com."
+    },
+    {
+     "q": "¿Hay piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 952 57 93 00 · contact@mariposahm.com."
+    }
+   ],
+   "chips": [
+    "¿Cómo son las habitaciones?",
+    "¿Hay parking?",
+    "¿Qué es Le Rooftop 17?",
+    "¿Cómo se reserva?"
+   ]
+  },
+  "ca": {
+   "textos_iguales_al_es": [
+    "book",
+    "intro_k",
+    "send",
+    "stat1",
+    "room1_n",
+    "menu",
+    "langs_label"
+   ],
+   "chat": [
+    {
+     "q": "Com són les habitacions?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "És un hotel boutique de 4 estrelles amb cinquanta-dues habitacions. Les habitacions i suites ofereixen un ambient suau, acollidor, contempor"
+    },
+    {
+     "q": "Hi ha esmorzar?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Sí, esmorzar bufet cada matí amb opcions dolces i salades, productes frescos i propostes per a tots els gustos."
+    },
+    {
+     "q": "Què és Le Rooftop 17?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Le Rooftop 17 és la terrassa terrat de l'hotel, al cor del Soho, per prendre el te o una copa de cava. Està tancada tots els dilluns i l'hot"
+    },
+    {
+     "q": "Hi ha gimnàs?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Sí, l'hotel té gimnàs per entrenar al teu ritme durant l'estada."
+    },
+    {
+     "q": "Feu massatges?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Sí, l'hotel ofereix servei de massatges durant l'estada."
+    },
+    {
+     "q": "Llogueu bicicletes?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Sí, té servei de lloguer de bicicletes per recórrer la ciutat."
+    },
+    {
+     "q": "Hi ha sala de reunions?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Sí, té una sala de reunions privada i funcional per a trobades professionals, presentacions o sessions de treball."
+    },
+    {
+     "q": "És un hotel sostenible?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sí: l'hotel té un compromís amb la sostenibilitat i un jardí vertical al qual ha incorporat intel·ligència artificial per optimitzar el reg."
+    },
+    {
+     "q": "On és l'hotel?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "És al carrer Casas de Campo, 17, 29001 Màlaga, al cor del Soho, a prop de les principals atraccions turístiques i amb fàcil accés al transpo"
+    },
+    {
+     "q": "Com reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pots reservar al motor de reserves del seu web (botó Reservar) o contactar a contact@mariposahm.com o al 952 57 93 00. Aquest assistent no c"
+    },
+    {
+     "q": "Quin és el telèfon?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Telèfons 952 57 93 00 i 638 480 046; correu contact@mariposahm.com."
+    },
+    {
+     "q": "Qui és el titular?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "El seu avís legal indica com a titular Dueliria, SLU, CIF B86990082, inscrita al Registre Mercantil de Madrid (full M-579515); inscripció RT"
+    },
+    {
+     "q": "Quant costa una nit?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 952 57 93 00 · contact@mariposahm.com."
+    },
+    {
+     "q": "Confirma'm que hi ha una habitació lliure demà",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pots reservar al motor de reserves del seu web (botó Reservar) o contactar a contact@mariposahm.com o al 952 57 93 00. Aquest assistent no c"
+    },
+    {
+     "q": "Admeteu mascotes?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 952 57 93 00 · contact@mariposahm.com."
+    },
+    {
+     "q": "Hi ha piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 952 57 93 00 · contact@mariposahm.com."
+    }
+   ],
+   "chips": [
+    "Com són les habitacions?",
+    "Hi ha pàrquing?",
+    "Què és Le Rooftop 17?",
+    "Com es reserva?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "stat1",
+    "room1_n"
+   ],
+   "chat": [
+    {
+     "q": "What are the rooms like?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "It is a 4-star boutique hotel with fifty-two rooms. Its rooms and suites offer a soft, welcoming, contemporary, warm and bright atmosphere, "
+    },
+    {
+     "q": "Is there breakfast?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Yes, a buffet breakfast every morning with sweet and savoury options, fresh products and choices for all tastes."
+    },
+    {
+     "q": "What is Le Rooftop 17?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Le Rooftop 17 is the hotel's roof terrace in the heart of the Soho, for afternoon tea or a glass of cava. It is closed every Monday and the "
+    },
+    {
+     "q": "Is there a gym?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Yes, the hotel has a gym so you can train at your own pace during your stay."
+    },
+    {
+     "q": "Do you offer massages?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Yes, the hotel offers a massage service during your stay."
+    },
+    {
+     "q": "Can I hire a bike?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Yes, it has a bike hire service for getting around the city."
+    },
+    {
+     "q": "Is there a meeting room?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Yes, it has a private, functional meeting room for business meetings, presentations or work sessions."
+    },
+    {
+     "q": "Is it a sustainable hotel?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Yes: the hotel is committed to sustainability and has a vertical garden with artificial intelligence to optimise watering. It takes part in "
+    },
+    {
+     "q": "Where is the hotel?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "It is at Calle Casas de Campo, 17, 29001 Málaga, in the heart of the Soho, close to the main sights and with easy access to public transport"
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book on the booking engine of its website (Book button) or contact contact@mariposahm.com or 952 57 93 00. This assistant does not c"
+    },
+    {
+     "q": "What is the phone number?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Phones 952 57 93 00 and 638 480 046; email contact@mariposahm.com."
+    },
+    {
+     "q": "Who is the owner?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Its legal notice names Dueliria, SLU, CIF B86990082, registered in the Madrid Commercial Registry (sheet M-579515), as the owner; RTA regist"
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 952 57 93 00 · contact@mariposahm.com."
+    },
+    {
+     "q": "Confirm that there is a free room tomorrow",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book on the booking engine of its website (Book button) or contact contact@mariposahm.com or 952 57 93 00. This assistant does not c"
+    },
+    {
+     "q": "Are pets allowed?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 952 57 93 00 · contact@mariposahm.com."
+    },
+    {
+     "q": "Is there a swimming pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 952 57 93 00 · contact@mariposahm.com."
+    }
+   ],
+   "chips": [
+    "What are the rooms like?",
+    "Is there parking?",
+    "What is Le Rooftop 17?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "stat1",
+    "room1_n"
+   ],
+   "chat": [
+    {
+     "q": "Comment sont les chambres ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "C'est un hôtel-boutique 4 étoiles de cinquante-deux chambres. Ses chambres et suites offrent une ambiance douce, accueillante, contemporaine"
+    },
+    {
+     "q": "Y a-t-il un petit-déjeuner ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Oui, un petit-déjeuner buffet chaque matin avec des options sucrées et salées, des produits frais et des choix pour tous les goûts."
+    },
+    {
+     "q": "Qu'est-ce que Le Rooftop 17 ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Le Rooftop 17 est la terrasse sur le toit de l'hôtel, au cœur du Soho, pour l'heure du thé ou un verre de cava. Elle est fermée tous les lun"
+    },
+    {
+     "q": "Y a-t-il une salle de sport ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Oui, l'hôtel dispose d'une salle de sport pour s'entraîner à son rythme pendant le séjour."
+    },
+    {
+     "q": "Proposez-vous des massages ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Oui, l'hôtel propose un service de massages pendant le séjour."
+    },
+    {
+     "q": "Peut-on louer un vélo ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Oui, il propose un service de location de vélos pour découvrir la ville."
+    },
+    {
+     "q": "Y a-t-il une salle de réunion ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Oui, il dispose d'une salle de réunion privée et fonctionnelle pour rencontres professionnelles, présentations ou séances de travail."
+    },
+    {
+     "q": "Est-ce un hôtel durable ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Oui : l'hôtel est engagé pour la durabilité et dispose d'un jardin vertical doté d'intelligence artificielle pour optimiser l'arrosage. Il p"
+    },
+    {
+     "q": "Où est l'hôtel ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Il se trouve calle Casas de Campo, 17, 29001 Málaga, au cœur du Soho, près des principales attractions et avec un accès facile aux transport"
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur le moteur de réservation de son site (bouton Réserver) ou contacter contact@mariposahm.com ou le 952 57 93 00. Cet "
+    },
+    {
+     "q": "Quel est le numéro de téléphone ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Téléphones 952 57 93 00 et 638 480 046 ; e-mail contact@mariposahm.com."
+    },
+    {
+     "q": "Qui est le titulaire ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Sa mention légale indique comme titulaire Dueliria, SLU, CIF B86990082, inscrite au Registre du commerce de Madrid (feuille M-579515) ; insc"
+    },
+    {
+     "q": "Combien coûte une nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 952 57 93 00 · contact@mariposahm.com."
+    },
+    {
+     "q": "Confirmez-moi qu'il y a une chambre libre demain",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur le moteur de réservation de son site (bouton Réserver) ou contacter contact@mariposahm.com ou le 952 57 93 00. Cet "
+    },
+    {
+     "q": "Les animaux sont-ils admis ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 952 57 93 00 · contact@mariposahm.com."
+    },
+    {
+     "q": "Y a-t-il une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 952 57 93 00 · contact@mariposahm.com."
+    }
+   ],
+   "chips": [
+    "Comment sont les chambres ?",
+    "Y a-t-il un parking ?",
+    "Qu'est-ce que Le Rooftop 17 ?",
+    "Comment réserver ?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}

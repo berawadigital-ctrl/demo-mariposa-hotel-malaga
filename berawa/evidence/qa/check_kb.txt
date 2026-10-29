@@ -1,3 +1,0 @@
-entradas 13 fallos de citas/cifras 0
-knowledge.json coincide con knowledge_mariposa_hotel_malaga.py
-REGLA DE PRECIOS: CUMPLE

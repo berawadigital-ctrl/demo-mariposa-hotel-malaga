@@ -1,0 +1,43 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://mariposahm.com/",
+ "read_at": "2026-10-29T10:56:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://mariposahm.com/",
+   "sha256": "f14224060a0bae4bc272dd11e722a5ea9d86034f7c59f4bf440183a2406fdba0",
+   "chars": 3667
+  },
+  {
+   "url": "https://mariposahm.com/aviso-legal",
+   "sha256": "bcb9f71a0c8e2bd6114530eeca4e311c0d0b1d60319510067ad7fc92e737af33",
+   "chars": 16504
+  },
+  {
+   "url": "https://mariposahm.com/contacto",
+   "sha256": "440accebc540a994c4a94fd552061d71a9be2f496fa2e3865fd4de15daac7967",
+   "chars": 2829
+  },
+  {
+   "url": "https://mariposahm.com/gallery",
+   "sha256": "62e55f09da9afe2edd256333b581e2946d1db92d065971498e4876b3044ef889",
+   "chars": 2751
+  },
+  {
+   "url": "https://mariposahm.com/hotel-boutique-mariposa-malaga",
+   "sha256": "ade708e04b62fbc418d30761f769178440774c3abeefe1cc5f8e640e5608c864",
+   "chars": 4461
+  },
+  {
+   "url": "https://mariposahm.com/rooftop",
+   "sha256": "584f3ec37de90aa7dadaca4523934256dbf29f016447cf9d225e62074d8a65a0",
+   "chars": 2938
+  }
+ ],
+ "other_pages_read": [
+  "https://mariposahm.com/politica-de-cookies",
+  "https://mariposahm.com/politica-de-privacidad",
+  "https://mariposahm.com/segurodeviaje"
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-mariposa-hotel-malaga",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-29T11:05:00+01:00",
+ "updated_at": "2026-10-29T11:05:00+01:00",
+ "business": {
+  "name": "Mariposa Hotel",
+  "legal_name": "Dueliria, S.L.U.",
+  "registry_ids": [
+   "CIF B86990082",
+   "Registro Mercantil de Madrid, hoja M-579515",
+   "RTA H/MA/01850"
+  ],
+  "url": "https://mariposahm.com/",
+  "domain": "mariposahm.com",
+  "municipality": "Málaga",
+  "province": "Málaga",
+  "address": "Calle Casas de Campo, 17 · 29001 Málaga",
+  "phones": [
+   "+34 952 57 93 00"
+  ],
+  "emails": [
+   "contact@mariposahm.com"
+  ],
+  "sector": "hotel boutique en el Soho de Málaga"
+ },
+ "rating": {
+  "value": 4.6,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Mariposa+Hotel/@36.7158608,-4.4235544,17z/data=!4m9!3m8!1s0xd72f79155014279:0x925c35378dc0ea9b!5m2!4m1!1i2!8m2!3d36.7158608!4d-4.4235544!16s%2Fg%2F11c6cgdz61",
+  "date": "2026-10-29T10:25:10+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "ca",
+  "en",
+  "fr"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "engine",
+  "url": {
+   "es": "https://mariposahm.com/bookingstep1",
+   "ca": "https://mariposahm.com/bookingstep1",
+   "en": "https://mariposahm.com/bookingstep1",
+   "fr": "https://mariposahm.com/bookingstep1"
+  },
+  "note": "Las reservas van al motor de reservas del propio hotel (mariposahm.com/bookingstep1, pagina del propio dominio que carga el componente de tarifas de Mirai del hotel, data-mirai-id 100377498; /booking redirige ahi); la demo no construye ningun motor."
+ },
+ "audit_original": {
+  "url": "https://mariposahm.com/",
+  "date": "2026-10-29T11:05:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: hotel con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
